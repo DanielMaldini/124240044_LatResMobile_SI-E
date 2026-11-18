@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'services/api_service.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
 }
 
-class MyApp extends StatelessWidget 
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
